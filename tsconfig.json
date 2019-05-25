@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "noEmitOnError": true, // dont compile if typescript error
+        
+    },
+    "exclude": [
+        "node_modules",
+        "types.ts",
+        "typing-exercise1.ts",
+    ],
+    "include": [
+        "app.ts",
+    ]
+}
+
